@@ -1,0 +1,31 @@
+.inner {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  width: 100%;
+  padding-left: 12.5% !important;
+  padding-right: 12.5% !important;
+  align-self: center;
+}
+
+.cover {
+  padding: 1.5rem;
+  overflow: hidden;
+}
+.cover .btn-lg {
+  padding: 0.75rem 1.25rem;
+  font-weight: 700;
+}
+
+/* Botão */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #001242;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #ffc300;
+  border: none;
+}
+
+#repo {
+  margin-left: 00.625rem;
+}

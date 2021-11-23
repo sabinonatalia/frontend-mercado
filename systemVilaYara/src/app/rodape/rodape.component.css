@@ -1,0 +1,28 @@
+a,
+a:focus,
+a:hover {
+  color: #ffc300;
+}
+
+.mastfoot {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #001242;
+  align-self: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.inner-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mastfoot-p {
+  margin-top: 1rem;
+  align-self: center;
+  margin-bottom: 1rem;
+  font-size: x-small;
+}

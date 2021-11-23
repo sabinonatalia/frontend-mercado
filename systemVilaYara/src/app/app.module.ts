@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { LoginAdminComponent } from './login-admin/login-admin.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { CadastrarComponent } from './cadastrar/cadastrar.component';
     LoginComponent,
     HomeComponent,
     LoginAdminComponent,
-    CadastrarComponent
+    CadastrarComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
